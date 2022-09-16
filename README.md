@@ -59,7 +59,7 @@ log4j.appender.auditAppender.layout.ConversionPattern=[%d] %p %m (%c)%n
 
 ...
 
-log4j.logger.audit.logger=INFO, auditAppender
-log4j.additivity.audit.logger=false
+log4j.logger.audit=INFO, auditAppender
+log4j.additivity.audit=false
 ```
 
